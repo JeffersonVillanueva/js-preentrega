@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("fondo-viaje.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.color_letra{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;  
+    
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+.color_letra .h1{
+    padding: 10px;
+    letter-spacing: .5vh ;
+    color: rgb(2, 0, 0) ;
+    text-align: center;
+}
+
+.color_letra .h2{
+    padding: 10px;
+    letter-spacing: 1vh ;
+}
+
+.pie{
+    padding: 20px;
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    text-align: center;  
+    
+}
+
+.widget1__img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    width: 25vh;   /* 60 */
+    height: 20vh;  /* 45 */
+    border-radius: 20px;
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly; /*center */ 
+    align-content: center;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:rgb(212, 205, 205);
+    opacity: 90%;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contenido {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        text-align: center;
+        
+    }
+    .widget1__img{
+    width: 40vh;   /* 60 */
+    height:30vh;  /* 45 */
+    padding: 0px;
+    margin: 10px;
+    
+    }
+}
+
+.alinear{
+    text-align: center;
+    color: #ff0000;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.prediodesde{
+    padding: 0;
+    white-space: nowrap;
+    color: #999;
+    font-size: 15px;
+    
+}
+.ciudad{
+    font-size: 24px;
+    line-height: 1em;
+    color: darkblue;
+}
+.increm{
+    color: darkred;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: 3px
+}
+.description{
+    
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    max-height: 2.6em;
+    overflow: hidden;
+    font-size: 11px;
+}
+
+
+
